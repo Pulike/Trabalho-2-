@@ -1,0 +1,39 @@
+
+package programa01;
+
+
+public class Ingresso {
+    
+    
+    float valoringresso = 100;
+
+   
+    
+    
+    
+    
+    
+    
+    
+    public float getValoringresso() {
+        return valoringresso;
+    }
+
+    public void setValoringresso(float valoringresso) {
+        this.valoringresso = valoringresso;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+}
+

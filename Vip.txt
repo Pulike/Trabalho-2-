@@ -1,0 +1,59 @@
+
+package programa01;
+
+
+public class Vip extends Ingresso  {
+    
+    private float adicional = 50; 
+    private float ValoVip;
+    private String VipChar = "Ingresso Vip";
+
+    public String getVipChar() {
+        return VipChar;
+    }
+
+    public void setVipChar(String VipChar) {
+        this.VipChar = VipChar;
+    }
+    
+ 
+    
+    
+    
+    public float getValorIngressoVip(){
+        return this.ValoVip=adicional+valoringresso;
+    
+    }
+    
+
+    public float getAdicional() {
+        return adicional;
+    }
+
+    public void setAdicional(float adicional) {
+        this.adicional = adicional;
+    }
+
+    public float getValoVip() {
+        return ValoVip;
+    }
+
+    public void setValoVip(float ValoVip) {
+        this.ValoVip = ValoVip;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+}
+
+

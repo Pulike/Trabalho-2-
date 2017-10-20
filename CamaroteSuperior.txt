@@ -1,0 +1,20 @@
+
+package programa01;
+
+
+public class CamaroteSuperior extends Vip {
+    
+    private String CamaroteSuperior = "Camarote Superior";
+
+    public String getCamaroteSuperior() {
+        return CamaroteSuperior;
+    }
+
+    public void setCamaroteSuperior(String CamaroteSuperior) {
+        this.CamaroteSuperior = CamaroteSuperior;
+    }
+    
+    
+            
+    
+}

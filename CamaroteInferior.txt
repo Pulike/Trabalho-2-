@@ -1,0 +1,24 @@
+package programa01;
+
+
+public class CamaroteInferior extends IngressoNormal {
+
+    private String CamaroteInferior = "Camarote Inferior";
+
+    public String getCamaroteInferior() {
+        return CamaroteInferior;
+    }
+
+    public void setCamaroteInferior(String CamaroteInferior) {
+        this.CamaroteInferior = CamaroteInferior;
+    }
+    
+    
+
+            
+            
+    
+
+
+    
+}

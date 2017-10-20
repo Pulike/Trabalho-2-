@@ -1,0 +1,60 @@
+
+package programa01;
+
+import java.util.Scanner;
+
+
+public class Programa01 {
+
+  
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        
+        Ingresso vl = new Ingresso();
+        vl.getValoringresso();
+        
+        Vip vp = new Vip();
+        vp.getValorIngressoVip();
+        vp.getVipChar();
+        
+        
+        IngressoNormal in = new IngressoNormal();
+        in.getIngressoNormal();
+        
+        CamaroteInferior ci = new CamaroteInferior();
+        ci.getCamaroteInferior();
+        
+        CamaroteSuperior cs = new CamaroteSuperior();
+        cs.getCamaroteSuperior();
+        
+        int ign = 1; 
+        int igv = 2;
+        
+        System.out.println("Digite 1 para ingresso normal ou Digite 2 para ingresso vip");
+        
+        int x = scan.nextInt();
+        
+        if ( x == ign ){
+            
+            System.out.println("  " + ci.getCamaroteInferior() + "   " + in.getIngressoNormal() + "  O valor e " + vl.getValoringresso() );
+            
+        }else if (x == igv){
+            
+            
+            System.out.println("  " + cs.getCamaroteSuperior() + "   " + vp.getVipChar() + "  O valor e  " + vp.getValorIngressoVip() );
+            
+        }
+        
+            if ( x != 1 && x != 2){
+            
+            System.out.println(" !!! Erro o numero digitado nao corresponde com as opcao acima !!! " );
+        }
+        
+        
+        
+        
+            
+    }    
+     
+        
+    }
