@@ -1,0 +1,29 @@
+# Trabalho-2-
+
+
+package exercicio02;
+
+import java.util.Scanner;
+
+
+public class Exercicio02 {
+
+    
+    public static void main(String[] args) {
+     
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.println("Digite um numero");
+        
+        int a = scan.nextInt();
+ 
+        int i;
+        
+        for (i = a; i>=0; i--){
+            
+            System.out.println("-- " + i );
+        }
+        
+    }
+    
+}
