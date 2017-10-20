@@ -1,0 +1,38 @@
+# Trabalho-2-
+
+
+
+package exercicio03;
+
+
+public class Exercicio03 {
+
+    
+    public static void main(String[] args) {
+        
+        int par = 0, impar = 0;
+        int i; 
+                    
+        for( i=0 ; i<30 ; i++){
+            
+            if (i%2 == 0){
+                
+                par = par*i;
+                
+                
+                
+            }else{
+                
+                impar = impar+i;
+                
+                
+            }
+        }
+        System.out.println("A multiplicacao dos numero par de 0 a 30 e " + par);
+        System.out.println("A soma dos numeros impar de 0 a 30 e" + impar);
+        
+        
+      
+    }
+    
+}
